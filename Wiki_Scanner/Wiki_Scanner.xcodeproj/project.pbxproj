@@ -10,10 +10,16 @@
 		4226649C16A1E094679578E6 /* Pods_Wiki_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE799F506CAD3C234D4B97C /* Pods_Wiki_Scanner.framework */; };
 		F42C74882CB5E8E7005A2D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74872CB5E8E7005A2D25 /* AppDelegate.swift */; };
 		F42C748A2CB5E8E7005A2D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74892CB5E8E7005A2D25 /* SceneDelegate.swift */; };
-		F42C748C2CB5E8E7005A2D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C748B2CB5E8E7005A2D25 /* ViewController.swift */; };
-		F42C748F2CB5E8E7005A2D25 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F42C748E2CB5E8E7005A2D25 /* Base */; };
+		F42C748C2CB5E8E7005A2D25 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C748B2CB5E8E7005A2D25 /* WikiViewController.swift */; };
 		F42C74912CB5E8E8005A2D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42C74902CB5E8E8005A2D25 /* Assets.xcassets */; };
 		F42C74942CB5E8E8005A2D25 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F42C74932CB5E8E8005A2D25 /* Base */; };
+		F42C74A52CB6A65E005A2D25 /* WikiNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74A42CB6A65E005A2D25 /* WikiNetworkManager.swift */; };
+		F42C74AA2CB6A73F005A2D25 /* Wiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74A92CB6A73F005A2D25 /* Wiki.swift */; };
+		F42C74AC2CB6AA3E005A2D25 /* WikiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74AB2CB6AA3E005A2D25 /* WikiRequest.swift */; };
+		F42C74AE2CB6AAD8005A2D25 /* WikiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74AD2CB6AAD8005A2D25 /* WikiEndpoint.swift */; };
+		F42C74B02CB6B6F0005A2D25 /* WikiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74AF2CB6B6F0005A2D25 /* WikiViewModel.swift */; };
+		F42C74B22CB6B75C005A2D25 /* WikiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74B12CB6B75C005A2D25 /* WikiType.swift */; };
+		F42C74B62CB6CE23005A2D25 /* WikiLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C74B52CB6CE23005A2D25 /* WikiLinkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +29,17 @@
 		F42C74842CB5E8E7005A2D25 /* Wiki_Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wiki_Scanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42C74872CB5E8E7005A2D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F42C74892CB5E8E7005A2D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F42C748B2CB5E8E7005A2D25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F42C748E2CB5E8E7005A2D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42C748B2CB5E8E7005A2D25 /* WikiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		F42C74902CB5E8E8005A2D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42C74932CB5E8E8005A2D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F42C74952CB5E8E8005A2D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42C74A42CB6A65E005A2D25 /* WikiNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiNetworkManager.swift; sourceTree = "<group>"; };
+		F42C74A92CB6A73F005A2D25 /* Wiki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wiki.swift; sourceTree = "<group>"; };
+		F42C74AB2CB6AA3E005A2D25 /* WikiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiRequest.swift; sourceTree = "<group>"; };
+		F42C74AD2CB6AAD8005A2D25 /* WikiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiEndpoint.swift; sourceTree = "<group>"; };
+		F42C74AF2CB6B6F0005A2D25 /* WikiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiViewModel.swift; sourceTree = "<group>"; };
+		F42C74B12CB6B75C005A2D25 /* WikiType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiType.swift; sourceTree = "<group>"; };
+		F42C74B52CB6CE23005A2D25 /* WikiLinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiLinkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,15 +92,85 @@
 		F42C74862CB5E8E7005A2D25 /* Wiki_Scanner */ = {
 			isa = PBXGroup;
 			children = (
-				F42C74872CB5E8E7005A2D25 /* AppDelegate.swift */,
-				F42C74892CB5E8E7005A2D25 /* SceneDelegate.swift */,
-				F42C748B2CB5E8E7005A2D25 /* ViewController.swift */,
-				F42C748D2CB5E8E7005A2D25 /* Main.storyboard */,
-				F42C74902CB5E8E8005A2D25 /* Assets.xcassets */,
-				F42C74922CB5E8E8005A2D25 /* LaunchScreen.storyboard */,
-				F42C74952CB5E8E8005A2D25 /* Info.plist */,
+				F42C74A62CB6A6D3005A2D25 /* App */,
+				F42C74A12CB6A640005A2D25 /* Flows */,
+				F42C74A72CB6A6E5005A2D25 /* Resources */,
+				F42C74A22CB6A644005A2D25 /* Shared */,
 			);
 			path = Wiki_Scanner;
+			sourceTree = "<group>";
+		};
+		F42C74A12CB6A640005A2D25 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74B32CB6CE0C005A2D25 /* Main */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		F42C74A22CB6A644005A2D25 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74A82CB6A732005A2D25 /* Models */,
+				F42C74A32CB6A64D005A2D25 /* NetworkAPI */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F42C74A32CB6A64D005A2D25 /* NetworkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74A42CB6A65E005A2D25 /* WikiNetworkManager.swift */,
+				F42C74AD2CB6AAD8005A2D25 /* WikiEndpoint.swift */,
+			);
+			path = NetworkAPI;
+			sourceTree = "<group>";
+		};
+		F42C74A62CB6A6D3005A2D25 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74872CB5E8E7005A2D25 /* AppDelegate.swift */,
+				F42C74892CB5E8E7005A2D25 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F42C74A72CB6A6E5005A2D25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74902CB5E8E8005A2D25 /* Assets.xcassets */,
+				F42C74952CB5E8E8005A2D25 /* Info.plist */,
+				F42C74922CB5E8E8005A2D25 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F42C74A82CB6A732005A2D25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74A92CB6A73F005A2D25 /* Wiki.swift */,
+				F42C74AB2CB6AA3E005A2D25 /* WikiRequest.swift */,
+				F42C74B12CB6B75C005A2D25 /* WikiType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F42C74B32CB6CE0C005A2D25 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74B42CB6CE14005A2D25 /* Cell */,
+				F42C748B2CB5E8E7005A2D25 /* WikiViewController.swift */,
+				F42C74AF2CB6B6F0005A2D25 /* WikiViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F42C74B42CB6CE14005A2D25 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F42C74B52CB6CE23005A2D25 /* WikiLinkCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +235,6 @@
 			files = (
 				F42C74912CB5E8E8005A2D25 /* Assets.xcassets in Resources */,
 				F42C74942CB5E8E8005A2D25 /* Base in Resources */,
-				F42C748F2CB5E8E7005A2D25 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,23 +287,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42C748C2CB5E8E7005A2D25 /* ViewController.swift in Sources */,
+				F42C74A52CB6A65E005A2D25 /* WikiNetworkManager.swift in Sources */,
+				F42C74B62CB6CE23005A2D25 /* WikiLinkCell.swift in Sources */,
+				F42C74AA2CB6A73F005A2D25 /* Wiki.swift in Sources */,
+				F42C748C2CB5E8E7005A2D25 /* WikiViewController.swift in Sources */,
+				F42C74AE2CB6AAD8005A2D25 /* WikiEndpoint.swift in Sources */,
 				F42C74882CB5E8E7005A2D25 /* AppDelegate.swift in Sources */,
 				F42C748A2CB5E8E7005A2D25 /* SceneDelegate.swift in Sources */,
+				F42C74B02CB6B6F0005A2D25 /* WikiViewModel.swift in Sources */,
+				F42C74B22CB6B75C005A2D25 /* WikiType.swift in Sources */,
+				F42C74AC2CB6AA3E005A2D25 /* WikiRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F42C748D2CB5E8E7005A2D25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F42C748E2CB5E8E7005A2D25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F42C74922CB5E8E8005A2D25 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,7 +444,7 @@
 				DEVELOPMENT_TEAM = GBDSAYFJ49;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wiki_Scanner/Info.plist;
+				INFOPLIST_FILE = Wiki_Scanner/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -393,7 +473,7 @@
 				DEVELOPMENT_TEAM = GBDSAYFJ49;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wiki_Scanner/Info.plist;
+				INFOPLIST_FILE = Wiki_Scanner/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
